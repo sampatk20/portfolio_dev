@@ -59,7 +59,7 @@
 
 import React from "react";
 
-function Work({ position, company, location, type, details, duration }) {
+function Work({ position, company, location, image, details, duration }) {
   // Split the details string into an array of bullet points
   // const detailPoints = details && details.length > 0 && details.map((detail, index) => (
   //   <li key={index} className="text-sm text-gray-600">{detail}</li>
