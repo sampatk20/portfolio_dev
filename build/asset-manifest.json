@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e7fe1d45.css",
+    "main.js": "/static/js/main.ccf1e440.js",
+    "static/media/swiftEbay.png": "/static/media/swiftEbay.2e0beb5c1fc18233a807.png",
+    "static/media/stocksearch.png": "/static/media/stocksearch.860410a79da291738875.png",
+    "static/media/Image_PC-2-3.png": "/static/media/Image_PC-2-3.4006cd684a457fb59dcc.png",
+    "static/media/ebayReact.png": "/static/media/ebayReact.d77b98a86255dfba5bb3.png",
+    "static/media/AI_Keyword.png": "/static/media/AI_Keyword.1fad88c82112596f5e08.png",
+    "static/media/Crypto.png": "/static/media/Crypto.2686baee09e318398e1b.png",
+    "static/media/ebayjs.png": "/static/media/ebayjs.59493ad6e4e95638447f.png",
+    "static/media/MINIMAL.png": "/static/media/MINIMAL.459d39fed440d84f9db1.png",
+    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/python.png": "/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/aws.png": "/static/media/aws.95bdee6b9922c9b94fd5.png",
+    "static/media/flask.svg": "/static/media/flask.0eabf7e7b579578090f552335f294e0f.svg",
+    "static/media/swift.png": "/static/media/swift.13d82fd58ebf84427765.png",
+    "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/mongodb-original-wordmark.svg": "/static/media/mongodb-original-wordmark.37c254895b58a4072247e428fc867bbe.svg",
+    "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "static/media/nodejs-original-wordmark.svg": "/static/media/nodejs-original-wordmark.a560a6573db18047caefb78d9eda86cc.svg",
+    "static/media/mysql-original-wordmark.svg": "/static/media/mysql-original-wordmark.6394bc2572c13c00cc6e48bb91629ab3.svg",
+    "static/media/googlecloud-original-wordmark.svg": "/static/media/googlecloud-original-wordmark.74a8e66916ab7723c8bdbd532f66a054.svg",
+    "static/media/cplusplus-original.svg": "/static/media/cplusplus-original.617c9a8bb301f69b558a86e12a325806.svg",
+    "index.html": "/index.html",
+    "main.e7fe1d45.css.map": "/static/css/main.e7fe1d45.css.map",
+    "main.ccf1e440.js.map": "/static/js/main.ccf1e440.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7fe1d45.css",
+    "static/js/main.ccf1e440.js"
+  ]
+}
