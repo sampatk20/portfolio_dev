@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react"
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Home from "./Pages/Home";
@@ -9,6 +10,7 @@ import Technologies from "./Pages/Technologies";
 import Contacts from "./Components/Contact";
 function App() {
   return (
+    <Analytics>
     <Router>
       <Header />
       <Routes>
@@ -20,6 +22,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
+    </Analytics>
   );
 }
 export default App;

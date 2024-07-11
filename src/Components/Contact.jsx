@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Analytics } from "@vercel/analytics/react"
 const email = 'udugula@usc.edu'
 const Contact = () => {
     return (
