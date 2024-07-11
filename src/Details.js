@@ -36,7 +36,10 @@ import projectImage3 from "./assets/icons/projects/AI_Keyword.png";
 import projectImage4 from "./assets/icons/projects/stocksearch.png";
 import projectImage5 from "./assets/icons/projects/Crypto.png";
 import projectImage6 from "./assets/icons/projects/ebayjs.png";
-
+import project7 from "./assets/icons/IBM.png";
+import project8 from "./assets/icons/mit_square_logo.jpeg";
+import project9 from "./assets/icons/USC.png";
+import project10 from "./assets/icons/srm.png";
 // Logos
 export const logos = {
   logogradient: logogradient,
@@ -97,7 +100,7 @@ export const workDetails = [
       Position: "Software Engineer Intern",
       Company: "IBM (International Business Machines Corporation)",
       Location: "Bengaluru, India",
-      Type: "Internship",
+      Image: project7,
       // Details: "Adhered to Agile methodologies to thoroughly understand requirements from cross-functional teams; translated complex requirements into actionable tasks, resulting in 100% stakeholder satisfaction. Devised Python scripts to automate data extraction from multiple IBM databases, enabling seamless generation of comprehensive weekly reports for stakeholders, saving an average of 15 hours per week. Architected a web application using Flask (Python) for the backend and JavaScript for the frontend, allowing users to generate complex database queries from text-based questions, reducing development time by 60% while increasing accuracy by 85%. Gained experience in professional software engineering practices, including code reviews, source control management, and build processes.",
       Details: [
         "Adhered to Agile methodologies to thoroughly understand requirements from cross-functional teams; translated complex requirements into actionable tasks, resulting in 100% stakeholder satisfaction.",
@@ -113,7 +116,7 @@ export const workDetails = [
     Position: "Research Intern",
     Company: `MIT Square`,
     Location: "Chennai, India",
-    Type: "Internship",
+    Image: project8,
     // Details: "Formulated and executed a project plan to improve cryptocurrency price trend analysis, resulting in a 20% accuracy increase using Python. Constructed a machine learning model based on Cryptocurrency/Blockchain data to predict daily cryptocurrency prices with Python, achieving accurate results. Incorporated Python scripts for Time Series Analysis and Feature Engineering Techniques, achieving a 90% accuracy rate in cryptocurrency price prediction. ",
     Details: [
       "Formulated and executed a project plan to improve cryptocurrency price trend analysis, resulting in a 20% accuracy increase using Python.",
@@ -132,7 +135,7 @@ export const eduDetails = [
     Position: "Master of Science in Computer Science",
     Company: "University of Southern California (USC)",
     Location: "Los Angeles, CA",
-    Type: "Full Time",
+    Image: project9,
     Details: [
       "CSCI - 570 : Analysis of Algorithms by Prof. Victor Adamchik",
       "CSCI - 585 : Database Systems by Prof. Sathyanarayana Raghavachary",
@@ -147,7 +150,7 @@ export const eduDetails = [
     Position: "Bachelor in Technology, Computer Science & Engineering",
     Company: `SRM Institute of Science & Technology`,
     Location: "Chennai, India",
-    Type: "Full Time",
+    Image: project10,
     Details: [
       "Data Structures and Algorithms",
       "Object Oriented Programming",
