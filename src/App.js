@@ -12,7 +12,7 @@ function App() {
   return (
     
     <Router>
-      <Analytics>
+      <Analytics id="prj_UUNeOphcvI3rQcFwQCMt9xTNEfAd">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
