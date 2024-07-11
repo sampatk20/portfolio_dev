@@ -10,8 +10,9 @@ import Technologies from "./Pages/Technologies";
 import Contacts from "./Components/Contact";
 function App() {
   return (
-    <Analytics>
+    
     <Router>
+      <Analytics>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -21,8 +22,8 @@ function App() {
         <Route path="/technologies" element={<Technologies />} />
       </Routes>
       <Footer />
+      </Analytics>
     </Router>
-    </Analytics>
   );
 }
 export default App;
