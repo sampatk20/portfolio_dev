@@ -83,7 +83,11 @@ function Work({ position, company, location, image, details, duration }) {
       <div className="flex justify-between items-center">
         <h1 className="text-content md:text-lg lg:text-xl">{position}</h1>
         {/* <div className="btn bg-greenbg text-green-text text-xs inline-block rounded-3xl px-3 py-1 min-w-fit">
+<<<<<<< HEAD
           {image}
+=======
+          {type}
+>>>>>>> ef0280ae0560a32e88d46c0bc0135bf9d29cbb3c
         </div> */}
         <div className="flex items-center">
           {image && <img src={image} alt={`${company} logo`} className="w-15 h-14 ml-4" />}
