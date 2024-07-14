@@ -59,7 +59,7 @@
 
 import React from "react";
 
-function Work({ position, company, location, type, details, duration }) {
+function Work({ position, company, location, image, details, duration }) {
   // Split the details string into an array of bullet points
   // const detailPoints = details && details.length > 0 && details.map((detail, index) => (
   //   <li key={index} className="text-sm text-gray-600">{detail}</li>
@@ -82,8 +82,11 @@ function Work({ position, company, location, type, details, duration }) {
     <article className="pt-8 border-b-2 border-dark-content pb-5 dark:border-light-content border-opacity-20 dark:border-opacity-20">
       <div className="flex justify-between items-center">
         <h1 className="text-content md:text-lg lg:text-xl">{position}</h1>
-        <div className="btn bg-greenbg text-green-text text-xs inline-block rounded-3xl px-3 py-1 min-w-fit">
-          {type}
+        {/* <div className="btn bg-greenbg text-green-text text-xs inline-block rounded-3xl px-3 py-1 min-w-fit">
+          {image}
+        </div> */}
+        <div className="flex items-center">
+          {image && <img src={image} alt={`${company} logo`} className="w-15 h-14 ml-4" />}
         </div>
       </div>
       <div className="flex justify-between pt-2">
